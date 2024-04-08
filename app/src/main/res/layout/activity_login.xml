@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center"
+            android:text="LOGIN"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textColor="@color/Text_color"
+            android:textSize="@dimen/_18ssp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_80sdp"
+                android:background="@drawable/sample_logo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/_30sdp"
+                android:text="FEED ME"
+                android:textColor="@color/Text_color"
+                android:textSize="@dimen/_20ssp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusTopStart="@dimen/_10sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_10sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_10sdp"
+            app:boxCornerRadiusBottomEnd="@dimen/_10sdp"
+            app:boxStrokeColor="#0288D1"
+            app:hintTextColor="@color/Text_color"
+            android:hint="Email"
+            app:endIconMode="clear_text"
+            android:layout_marginTop="@dimen/_30sdp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:drawableStart="@drawable/user_icon"
+                android:drawablePadding="@dimen/_10sdp"
+                android:singleLine="false"
+                android:textColor="@color/Text_color"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputTextfield"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusTopStart="@dimen/_10sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_10sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_10sdp"
+            app:boxCornerRadiusBottomEnd="@dimen/_10sdp"
+            app:boxStrokeColor="#0288D1"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/BUTTON_COLOR"
+            app:startIconTint="@color/black"
+            app:hintTextColor="@color/Text_color"
+            android:hint="Password"
+            android:layout_marginTop="@dimen/_10sdp">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/password_icon"
+                android:drawablePadding="@dimen/_10sdp"
+                android:singleLine="false"
+                android:textColor="@color/Text_color"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:text="Remember me"
+            android:layout_marginLeft="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textColor="@color/Text_color"
+            android:textStyle="bold"
+           />
+
+        <TextView
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:background="@drawable/button_color"
+            android:gravity="center"
+            android:elevation="@dimen/_2sdp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="LOGIN"/>
+
+        <TextView
+            android:id="@+id/createaccount_textview"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:text="Create an account"
+            android:textColor="@color/Text_color"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:textSize="@dimen/_12ssp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_70sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center"
+            android:textColor="#828282"
+            android:text="Developed by: BLUEJOB"
+            android:layout_marginTop="@dimen/_18sdp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

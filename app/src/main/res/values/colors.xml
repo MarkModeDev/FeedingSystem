@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="Text_color">#001B4C</color>
+    <color name="TEXT_HOLDER_HINT">#D9D9D9</color>
+    <color name="HISTORY_TEXT">#006DFF</color>
+    <color name="BUTTON_COLOR">#2D97D3</color>
+
+    <color name="DEADLY">#FE5D5D</color>
+    <color name="TOXIC">#D8DA69</color>
+    <color name="SAFE">#3EB33E</color>
+
+
+    //Ph
+    <color name="Zero">#BF2120</color>
+    <color name="One">#FD1F01</color>
+    <color name="Two">#FD7B01</color>
+    <color name="Three">#FFBE30</color>
+    <color name="Four">#FFFD01</color>
+    <color name="Five">#C4FF01</color>
+    <color name="Six">#8FFF00</color>
+    <color name="Seven">#42FF01</color>
+    <color name="Eight">#00FBA6</color>
+    <color name="Nine">#01F0FD</color>
+    <color name="Ten">#00C0FA</color>
+    <color name="Eleven">#0147FF</color>
+    <color name="Twelve">#9D02FE</color>
+    <color name="Thirteen">#EB00FE</color>
+    <color name="Fourteen">#FF00FC</color>
+
+
+
+    //Celsius
+    <color name="Clothing_Catches_fire">#FE0000</color>
+    <color name="Damn_hot">#FF6501</color>
+    <color name="Quite_hot">#FFCF00</color>
+    <color name="Warm">#9BCF00</color>
+    <color name="Nice">#008100</color>
+    <color name="Cool">#31CFCE</color>
+    <color name="Chilly">#9CCEFF</color>
+    <color name="Cold">#3065FF</color>
+    <color name="Freezing">#0000FE</color>
+    <color name="Quite_Cold">#000084</color>
+    <color name="Really_Cold">#32309D</color>
+    <color name="Damn_Cold">#303030</color>
+    <color name="Really_Damn_Cold">#000000</color>
+
+</resources>

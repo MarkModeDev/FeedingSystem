@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardUseCompatPadding="true"
+    android:orientation="vertical"
+    android:id="@+id/history_recyleView"
+
+
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <TextView
+            android:id="@+id/hdt"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:textSize="@dimen/_10ssp"
+            android:text="12/05/06"/>
+
+
+        <TextView
+            android:id="@+id/ht"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_110sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_10ssp"
+            android:text="02:20 pm"/>
+
+
+
+        <TextView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_8ssp"
+            android:text="Ammonia"/>
+
+        <TextView
+            android:id="@+id/hamm"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15ssp"
+            android:text="30c"/>
+
+        <TextView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_110sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_8ssp"
+            android:text="PhLevel"/>
+
+        <TextView
+            android:id="@+id/hph"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_110sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15ssp"
+            android:text="30c"/>
+
+
+        <TextView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_8ssp"
+            android:text="Temperature"/>
+
+        <TextView
+            android:id="@+id/htmp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_200sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15ssp"
+            android:text="30c"/>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

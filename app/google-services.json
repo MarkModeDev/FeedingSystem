@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "70240191667",
+    "firebase_url": "https://feeddb-fbb2d-default-rtdb.firebaseio.com",
+    "project_id": "feeddb-fbb2d",
+    "storage_bucket": "feeddb-fbb2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70240191667:android:b562d4cfbbfb99569b5cc6",
+        "android_client_info": {
+          "package_name": "FEEDING.SYSTEM"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXyLzu6Vh8cJycNZgoZJTVIEiDX19u4kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70240191667:android:5148eea42a9b47ef9b5cc6",
+        "android_client_info": {
+          "package_name": "com.example.feedingv1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXyLzu6Vh8cJycNZgoZJTVIEiDX19u4kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70240191667:android:39ba177a64c4d7d19b5cc6",
+        "android_client_info": {
+          "package_name": "com.example.feedmona"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXyLzu6Vh8cJycNZgoZJTVIEiDX19u4kY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
