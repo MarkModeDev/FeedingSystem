@@ -15,8 +15,7 @@
         android:background="@drawable/background_linearname"
         android:layout_marginHorizontal="@dimen/_20sdp"
         android:layout_marginTop="@dimen/_20sdp"
-        android:gravity="center"
-        >
+        android:gravity="center">
 
         <View
             android:layout_width="@dimen/_20sdp"
