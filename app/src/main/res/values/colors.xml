@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="Text_color">#001B4C</color>
+    <color name="TEXT_HOLDER_HINT">#D9D9D9</color>
+    <color name="HISTORY_TEXT">#006DFF</color>
+    <color name="BUTTON_COLOR">#2D97D3</color>
+
+    <color name="DEADLY">#FE5D5D</color>
+    <color name="TOXIC">#D8DA69</color>
+    <color name="SAFE">#3EB33E</color>
+</resources>

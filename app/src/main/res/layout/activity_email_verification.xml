@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailVerificationActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <View
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:background="@drawable/mail_check"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+            android:gravity="center"
+            android:id="@+id/us"
+            android:layout_marginHorizontal="@dimen/_70sdp"
+            android:text="EMAIL verification"
+            android:textColor="@color/Text_color"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/_70sdp"
+            android:text="Successfully sent to your provided email address please check your email"
+            android:textColor="@color/Text_color"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_75sdp"
+            />
+
+        <TextView
+            android:id="@+id/loginredirect_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginHorizontal="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:background="@drawable/button_color"
+            android:gravity="center"
+            android:elevation="@dimen/_2sdp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_55sdp"
+            android:text="GO TO LOGIN"/>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

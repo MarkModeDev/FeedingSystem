@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailSendActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/email_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <View
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:background="@drawable/mail"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_20sdp"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/_70sdp"
+            android:text="EMAIL verification"
+            android:textColor="@color/Text_color"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/_70sdp"
+            android:text="We will send you a email verification in this email you provided"
+            android:textColor="@color/Text_color"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginTop="@dimen/_5sdp"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInput"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusTopStart="@dimen/_10sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_10sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_10sdp"
+            app:boxCornerRadiusBottomEnd="@dimen/_10sdp"
+            app:boxStrokeColor="#0288D1"
+            app:startIconTint="@color/BUTTON_COLOR"
+            app:hintTextColor="@color/Text_color"
+            android:hint="Email"
+            app:endIconMode="clear_text"
+            android:layout_marginTop="@dimen/_10sdp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/verification_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:drawableStart="@drawable/user_icon"
+                android:drawablePadding="@dimen/_10sdp"
+                android:singleLine="false"
+                android:textColor="@color/Text_color"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputTextfield"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_height="@dimen/_50sdp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusTopStart="@dimen/_10sdp"
+            app:boxCornerRadiusBottomStart="@dimen/_10sdp"
+            app:boxCornerRadiusTopEnd="@dimen/_10sdp"
+            app:boxCornerRadiusBottomEnd="@dimen/_10sdp"
+            app:boxStrokeColor="#0288D1"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/BUTTON_COLOR"
+            app:hintTextColor="@color/Text_color"
+            android:hint="Password"
+            android:layout_marginTop="@dimen/_10sdp">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password_verification"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/password_icon"
+                android:drawablePadding="@dimen/_10sdp"
+                android:singleLine="false"
+                android:textColor="@color/Text_color"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_50sdp">
+
+            <TextView
+                android:id="@+id/sendemail_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginHorizontal="@dimen/_40sdp"
+                android:background="@drawable/button_color"
+                android:gravity="center"
+                android:elevation="@dimen/_2sdp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="SEND EMAIL"/>
+
+            <TextView
+                android:id="@+id/Verify_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginHorizontal="@dimen/_40sdp"
+                android:background="@drawable/button_color"
+                android:gravity="center"
+                android:elevation="@dimen/_2sdp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="VERIFY"
+                android:visibility="invisible"/>
+
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_10sdp"
+
+            >
+
+            <ImageView
+
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:background="@drawable/button_color" />
+
+            <ImageView
+
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/button_color" />
+
+            <ImageView
+
+                android:layout_width="@dimen/_10sdp"
+                android:layout_height="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/code_background" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
